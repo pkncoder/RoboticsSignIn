@@ -11,7 +11,6 @@ app = Flask(__name__)
 # Cross orgins
 CORS(app, origins=[
    "http://127.0.0.1:5500", # Locol-host
-   "http://10.116.216.78:5500" # PerkinsStaff
 ])
 
 # Begining of the file path (relative) for the logs
