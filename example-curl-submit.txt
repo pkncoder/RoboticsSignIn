@@ -1,0 +1,5 @@
+curl -X POST http://127.0.0.1:5000/log \
+  -H "Content-type: application/json" \
+  -d '{"user": "hank", "message": "here", "event": "start"}' 
+
+curl -X GET http://127.0.0.1:5000/files

@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.usernameLogin {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+    &:focus {
+        outline: none;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
+
+.passwordLogin {
+    margin-bottom: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+
+
+
+td.highlight a {
+    background: rgba(153, 205, 50, 0.637) !important;
+    border: solid 1px yellowgreen !important;
+    color: black !important;
+
+    &:focus {
+        background: rgba(137, 43, 226, 0.623) !important;
+        border: solid 1px blueviolet !important;
+        color: black !important;
+    }
+}
+
+td.highlight.ui-datepicker-current-day a {
+    background: rgba(137, 43, 226, 0.551) !important;
+    border: solid 1px blueviolet !important;
+    color: black !important;
+}

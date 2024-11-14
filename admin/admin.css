@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: lightgray;
+
+    .refreshButton {
+        font-size: 30px;
+    
+        border: 0px;
+    
+        height: auto;
+    
+        background-color: rgb(189, 189, 255);
+        border-radius: 10px;
+    }
+
+    .data {
+
+        width: 100%;
+
+        display: block;
+
+        .main {
+            width: inherit;
+
+            background-color: darkgray;
+            
+            display: grid;
+
+            grid-template-columns: repeat(3, 1fr);
+
+            p {
+                text-align: center;
+            }
+
+            .currentlySignedIn {
+                width: 99%;
+                height: 99%;
+
+                background-color: lightgray;
+            }
+
+            .times {
+                width: 99%;
+                height: 99%;
+
+                background-color: lightgray;
+            }
+
+            .activityLog {
+                width: 99%;
+                height: 99%;
+
+                background-color: lightgray;
+            }
+        }
+    }
+
+    .ticket-screen {
+        display: none;
+    }
+}
